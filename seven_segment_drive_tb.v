@@ -24,7 +24,8 @@ module test;
   reg [3:0] ones;
   reg [3:0] tens;
   wire [3:0] anode;
-  wire [6:0] seg7;
+  wire [6:0] seg7,
+  output output;
     
   // Instantiate design under test
   seven_seg_drive U1(
